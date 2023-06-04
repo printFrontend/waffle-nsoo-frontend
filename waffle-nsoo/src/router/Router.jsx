@@ -1,25 +1,19 @@
-import NavBar from "../pages/nav";
-import Login from "../pages/Login";
-import Weather from "../pages/weather";
-import { BrowserRouter, Link, Routes, Route } from "react-router-dom";
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Navigation from "../component/Navigation/navigation";
+import Login from "../component/login";
+import Nav from "../component/nav";
+import Weather from "../component/weather";
 
 const Router = () => {
   return (
     <BrowserRouter>
-      <Link to="/Login">
-        <button>로그인</button>
-      </Link>
-      <Link to="/Nav">
-        <button>네비게이션바</button>
-      </Link>
-      <Link to="/Weather">
-        <button>날씨</button>
-      </Link>
+      <Navigation />
       <Routes>
-        <Route path="/">기본페이지</Route>
-        <Route path="/Login" element={<Login />}></Route>
-        <Route path="/Nav" element={<NavBar />}></Route>
-        <Route path="/Weather" element={<Weather />}></Route>
+        <Route path="/" element={<div>기본페이지</div>} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/nav" element={<Nav />} />
+        <Route path="/weather" element={<Weather />} />
       </Routes>
     </BrowserRouter>
   );

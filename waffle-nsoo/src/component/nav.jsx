@@ -1,6 +1,6 @@
 import React from "react";
 
-const NavBar = () => {
+const Nav = () => {
   return (
     <>
       <h1>Navbar페이지입니다</h1>
@@ -8,4 +8,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default Nav;
