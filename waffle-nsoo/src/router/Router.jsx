@@ -4,13 +4,14 @@ import Navigation from "../component/Navigation/Navigation";
 import Login from "../component/login";
 import Nav from "../component/nav";
 import Weather from "../component/weather";
+import Home from "../component/home";
 
 const Router = () => {
   return (
     <BrowserRouter>
       <Navigation />
       <Routes>
-        <Route path="/" element={<div>기본페이지</div>} />
+        <Route path="/home" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/nav" element={<Nav />} />
         <Route path="/weather" element={<Weather />} />

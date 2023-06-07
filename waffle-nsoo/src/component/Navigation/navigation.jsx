@@ -4,6 +4,9 @@ import { Link } from "react-router-dom";
 const Navigation = () => {
   return (
     <>
+      <Link to="/Home">
+        <button>기본홈페이지</button>
+      </Link>
       <Link to="/Login">
         <button>로그인</button>
       </Link>
