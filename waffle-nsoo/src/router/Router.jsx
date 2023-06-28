@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Navigation from "../component/Navigation/Navigation";
+import Navigation from "../component/Navigation/Header";
 import Login from "../component/login";
 import Nav from "../component/nav";
 import Weather from "../component/weather";
