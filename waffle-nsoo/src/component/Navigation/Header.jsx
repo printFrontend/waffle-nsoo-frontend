@@ -20,7 +20,7 @@ const NavLink = styled(Link)`
   &: hover {
     background-color: #A5D7E8;
     color: #0B2447;
-    font-weight: bold;
+    font-weight: bolder;
     transition: 0.3s;
   }
 `
@@ -34,17 +34,17 @@ const LoginLink = styled(Link)`
   &: hover {
     background-color: #576CBC;
     color: #eee;
-    font-weight: bold;
+    font-weight: bolder;
     transition: 0.3s;
   }
 `
 
-const NavBtn = styled.h1`
+const NavBtn = styled.div`
   background-color: transparent;
   border: none;
   text-align: center;
-  font-size: 15px;
-  margin-top: 16px;
+  font-size: 20px;
+  margin-top: 14px;
 `
 
 const Header = () => {
