@@ -16,6 +16,3 @@
   yarn add react-router-dom
   yarn add styled-reset
 ```
-
-  yarn start
-```
