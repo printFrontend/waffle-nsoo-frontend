@@ -53,13 +53,13 @@ const Header = () => {
       <NavLink to="/Home">
         <NavBtn>로고</NavBtn>
       </NavLink>
-      <NavLink to="/Nav">
+      <NavLink to="/Schedule">
         <NavBtn>경기일정</NavBtn>
       </NavLink>
       <NavLink to="/Weather">
         <NavBtn>날씨</NavBtn>
       </NavLink>
-      <NavLink to="/">
+      <NavLink to="/Matching">
         <NavBtn>랜덤매칭</NavBtn>
       </NavLink>
       <LoginLink to="/Login">

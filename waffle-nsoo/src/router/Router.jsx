@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navigation from "../component/Navigation/Header";
-import Login from "../component/pages/Login";
-import Nav from "../component/pages/Nav";
+import Matching from "../component/pages/Matching";
+import Schedule from "../component/pages/Schedule";
 import Weather from "../component/pages/Weather";
 import Home from "../component/pages/Home";
 
@@ -11,9 +11,9 @@ const Router = () => {
     <BrowserRouter>
       <Navigation />
       <Routes>
-        <Route path="pages/Home" element={<Home />} />
-        <Route path="/Login" element={<Login />} />
-        <Route path="/Nav" element={<Nav />} />
+        <Route path="/Home" element={<Home />} />
+        <Route path="/Matching" element={<Matching />} />
+        <Route path="/Schedule" element={<Schedule />} />
         <Route path="/Weather" element={<Weather />} />
       </Routes>
     </BrowserRouter>
